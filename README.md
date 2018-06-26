@@ -26,4 +26,3 @@ Linux was used to build the document, however, other operating systems could als
 The simplest way to build the output PDF is with the command `make pdf`.
 
 Alternatively, you can watch for changes in the markdown documents and automatically build the PDF when a change is detected. To do this, you need a version of NodeJS. When you have node, run `npm install` from the project directoy to install dependencies. Then to start watching the files, run `npm run watch`.
-
