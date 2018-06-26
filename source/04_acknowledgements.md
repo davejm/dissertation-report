@@ -2,13 +2,16 @@
 
 <!-- This is for acknowledging all of the people who helped out -->
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam congue fermentum ante, semper porta nisl consectetur ut. Duis ornare sit amet dui ac faucibus. Phasellus ullamcorper leo vitae arcu ultricies cursus. Duis tristique lacus eget metus bibendum, at dapibus ante malesuada. In dictum nulla nec porta varius. Fusce et elit eget sapien fringilla maximus in sit amet dui.
+Thanks to my supervisor, Dr Haiping Lu, for his insights throughout the project, and suggesting that I slightly change the topic of my project to match my passion for Deep Learning. Thanks also to Shuo Zhou for his assistance with \LaTeX\ and suggestions regarding tuning Machine Learning models.
 
-Mauris eget blandit nisi, faucibus imperdiet odio. Suspendisse blandit dolor sed tellus venenatis, venenatis fringilla turpis pretium. Donec pharetra arcu vitae euismod tincidunt. Morbi ut turpis volutpat, ultrices felis non, finibus justo. Proin convallis accumsan sem ac vulputate. Sed rhoncus ipsum eu urna placerat, sed rhoncus erat facilisis. Praesent vitae vestibulum dui. Proin interdum tellus ac velit varius, sed finibus turpis placerat.
+A number of software packages were invaluable to this project. In particular thanks to all of the contributors involved with nilearn [@nilearn], scikit-learn [@scikit-learn], pandoc, TensorFlow [@tensorflow2015-whitepaper] and Keras [@chollet2015keras]. It is a testament to the Open Source Software philosophy that the best tools across so many disciplines are released freely.
+
+Thanks to the Autism Brain Imaging Data Exchange (ABIDE) and the Preprocessed Connectomes Project (PCP) for making the dataset that I used for this project freely available [@neuro_preprocessing].
+
+Also thanks to Tom Pollard *et al.* for the template which made writing this dissertation with pandoc and \LaTeX\ a lot easier [@phd_thesis_template].
+
+Last but by no means least, thank you to all of my incredible friends and family, without whom, University would have been exponentially more difficult or impossible. In particular, thanks to my parents who have gone above and beyond to support me in all of my endeavours.
 
 <!-- Use the \newpage command to force a new page -->
 
 \newpage
-
-
-

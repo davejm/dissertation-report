@@ -1,0 +1,6 @@
+ROI number,Volume,Center of mass,Harvard-Oxford
+1,162, (-39.6;-85.4;1.4),"[""Left Lateral Occipital Cortex; inferior division"": 0.87]"
+2,269, (-49.7;-60.8;23.2),"[""Left Angular Gyrus"": 0.46][""Left Lateral Occipital Cortex; superior division"": 0.39]"
+3,284, (13.3;-64.4;24.0),"[""Right Precuneous Cortex"": 0.65][""Right Cuneal Cortex"": 0.18]"
+4,243, (-36.6;-13.9;-2.3),"[""Left Putamen"": 0.33][""Left Insular Cortex"": 0.30][""Left Planum Polare"": 0.21][""Left Heschl's Gyrus (includes H1 and H2)"": 0.11]"
+5,222, (-6.8;45.7;7.8),"[""Left Paracingulate Gyrus"": 0.62][""Left Cingulate Gyrus; anterior division"": 0.20]"

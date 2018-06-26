@@ -1,0 +1,3 @@
+Acc,f1,Prec,Rec,batchS,dropout,epochs,init,LR,neurons,optimizer
+0.51,0.68,0.51,1,100,0.2,500,uniform,0.001,500,RMSprop
+0.51,0.68,0.51,1,100,0.2,500,uniform,0.01,500,RMSprop

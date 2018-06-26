@@ -26,7 +26,7 @@ help:
 
 pdf:
 	pandoc "$(INPUTDIR)"/*.md \
-	-o "$(OUTPUTDIR)/thesis.pdf" \
+	-o "$(OUTPUTDIR)/dissertation.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--template="$(STYLEDIR)/template.tex" \
 	--bibliography="$(BIBFILE)" 2>pandoc.log \
@@ -34,10 +34,12 @@ pdf:
 	--highlight-style pygments \
 	-V fontsize=12pt \
 	-V papersize=a4paper \
-	-V documentclass=report \
+	-V documentclass:report \
 	-N \
 	--pdf-engine=xelatex \
-	--verbose
+	--filter pandoc-csv2table \
+	--filter pandoc-latex-fontsize \
+	--lua-filter=latex-short-captions.lua
 
 tex:
 	pandoc "$(INPUTDIR)"/*.md \
@@ -46,10 +48,10 @@ tex:
 	--bibliography="$(BIBFILE)" \
 	-V fontsize=12pt \
 	-V papersize=a4paper \
-	-V documentclass=report \
+	-V documentclass:report \
 	-N \
 	--csl="$(STYLEDIR)/ref_format.csl" \
-	--latex-engine=xelatex
+	--pdf-engine=xelatex
 
 docx:
 	pandoc "$(INPUTDIR)"/*.md \
