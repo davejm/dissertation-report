@@ -12,7 +12,7 @@ Based on the analysis, the following pre-processing steps were taken:
 
 ## Model Choice
 
-The SVM classifier was used in order to provide a comparative baseline to the neural network classifier. An untuned SVM and an SVM tuned via grid-search provided baseline scores. For the neural network, a single layer network was used to provide a baseline and check that everything was working correcly. The main network of interest was the 'complex' neural network which comprised 1 hidden layer of 500 neurons, dropout layers, random weight initialisation and was trained with the RMSProp optimiser. Figures \ref{fig:simple_nn} and \ref{fig:complex_nn} show diagrams of the simple and complex neural network architectures.
+The SVM classifier was used in order to provide a comparative baseline to the neural network classifier. An untuned SVM and an SVM tuned via grid-search provided baseline scores. For the neural network, a single layer network was used to provide a baseline and check that everything was working correctly. The main network of interest was the 'complex' neural network which comprised 1 hidden layer of 500 neurons, dropout layers, random weight initialisation and was trained with the RMSProp optimiser. Figures \ref{fig:simple_nn} and \ref{fig:complex_nn} show diagrams of the simple and complex neural network architectures.
 
 ![The simple single-layer neural network architecture.\label{fig:simple_nn}](source/figures/nn_simple.png)
 

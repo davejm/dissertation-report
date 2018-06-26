@@ -85,7 +85,8 @@ However, the SVM classifier was simply meant to be a baseline for the neural net
 
 Another observation, made pre-training, was that filtering the data by quality assessment attributes (`qc_rater` columns) and/or thresholding the mean framewise displacement led to poorer classification scores. This is probably due to two factors.
 
-1. The fMRI dataset is already comparatively small for training a robust machine learning classifier. Removing training data samples, even if they aren't of the best quality, gives the classifier less information to learn.
+1. The fMRI dataset is already comparatively small for training a robust machine learning classifier. Removing training data samples, even if they aren't of the best quality, gives the classifier less information to learn from.
+
 2. Some of the quality assessment criteria are subjective. Machines may be better at 'teasing out' the correct representations despite humans judging the data to be of poor quality.
 
 ## Goals Achieved

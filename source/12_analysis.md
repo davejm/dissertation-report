@@ -49,7 +49,7 @@ The purpose of an exploratory data analysis (EDA) is to summarise the main stati
 
 ### ROI Atlases
 
-There are seven atlases which are used to compute ROI derivatives. The Craddock 200 atlas has been used recently to create a classify with state-of-the-art results, therefore there will be a focus on this atlas. Figure \ref{fig:cc200_ortho} shows an orthographic plot of the Craddock 200 (CC200) atlas.
+There are seven atlases which are used to compute ROI derivatives. The Craddock 200 atlas has been used recently to create a classifier with state-of-the-art results, therefore there will be a focus on this atlas. Figure \ref{fig:cc200_ortho} shows an orthographic plot of the Craddock 200 (CC200) atlas.
 
 ![An orthographic plot of the Craddock 200 (CC200) brain atlas which is used to extract ROI mean time-series data.\label{fig:cc200_ortho}](source/figures/cc200_atlas_rois_plot_ortho.png "An orthographic plot of the Craddock 200 (CC200) brain atlas.")
 
@@ -77,7 +77,7 @@ The phenotypes CSV has many attributes, not all of which will be useful to class
 
 There are 1112 rows of phenotypic data in the downloaded file relating to subjects. Removing rows without corresponding neuroimaging files leaves 1035 subjects.
 
-The unique site IDs were also found. The ABIDE I website explains that the data was collected accross 17 different sites, however there are 20 distinct site IDs. This is due to the fact that some sites have multiple entries, presumably because the data was collected at different times or in different labs at the same institution. These site IDs are `UM_1`, `UM_2`, `LEUVEN_1`, `LEUVEN_2`, `UCLA_1` and `UCLA_2`. It would make logical sense to merge these pairs of sites as was done in @HEINSFELD201816.
+The unique site IDs were also found. The ABIDE I website explains that the data was collected accross 17 different sites, however there are 20 distinct site IDs. This is due to the fact that some sites have multiple entries, presumably because the data was collected at different times or in different labs at the same institution. These site IDs are `UM_1`, `UM_2`, `LEUVEN_1`, `LEUVEN_2`, `UCLA_1` and `UCLA_2`. It would make logical sense to merge these pairs of sites as was done in Heinsfeld et al 2018 [@HEINSFELD201816].
 
 The mean framewise displacement (FD) is another important attribute. The current guidance in the neuroimaging community is to only use data with mean FD <= 0.2. It is therefore important to look at the distribution of mean FD in the dataset (see figure \ref{fig:mean_fds}).
 
@@ -105,7 +105,7 @@ Although this project is primarily concerned with using the extracted ROI time-s
 
 ## Computing Connectivity
 
-The mean connectivity of each diagnostic group was studied. This involved splitting the data by diagnosis, computing the connectivities with either correlation or partial correlation and using appropriate plotting methods to visualise these. Figure \ref{fig:conn_matrices}
+The mean connectivity of each diagnostic group was studied. This involved splitting the data by diagnosis, computing the connectivities with either correlation or partial correlation and using appropriate plotting methods to visualise these (see figure \ref{fig:conn_matrices}).
 
 ![Plots of the mean connectivity matrices calculated for the ASD and TD patients. Note that the diagonals of the partial correlation matrices have been set to 0 to ease visualisation as the partial correlation values are sparse and small.\label{fig:conn_matrices}](source/figures/conn_matrices.png)
 
