@@ -45,5 +45,11 @@ This is the Latex-heavy title page.
         University of Sheffield, UK\\
         May 2018
 
+        \vspace{0.5cm}
+
+        \scriptsize
+        Report Version 1.1
+        \normalsize
+
     \end{center}
 \end{titlepage}
