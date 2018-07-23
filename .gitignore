@@ -62,4 +62,4 @@ node_modules/
 output/*
 
 # Keep the built PDF in version control for ease
-!output/dissertation.pdf
+#!output/dissertation.pdf
